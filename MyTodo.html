@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukuna-List</title>
+    <link rel="stylesheet" href="MyTodo.css">
+</head>
+<body>
+<main>
+    <div>
+        <div class="intro col-12">
+            <h2>my to-do app</h2>
+        </div>
+            
+        <div class="row">
+			<div class="helpText col-12">
+                    <p id="firstLine">Enter text in the input field to add items to your to-do list.</p>
+                    <p id="secondLine">Click the item to mark it as complete.</p>
+                    <p id="thirdLine">Click the "X" to remove an item from the list.</p>
+            </div>    
+        </div>
+        <div class="row">
+			<div class="col-12">
+                <input id="inputField" type="text" placeholder="Enter your to-do..."  maxlength="27">
+                <button id="addItem">Add item</button>
+            </div>
+        </div>
+        
+            <div class="row">
+                <div class="listItems col-12">
+                    <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+                    </ul>
+                </div>
+            </div> 
+    </div>
+    <div class = " lastDiv">
+         <p class = "p1">Developed by <em>Mukuna</em></p>
+         <p class = "p2">Technologies</p>
+    </div>
+    
+</main>
+<script type="text/javascript" src="MyTodo.js"></script>      
+</body>
+</html>

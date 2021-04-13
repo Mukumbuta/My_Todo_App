@@ -1,0 +1,134 @@
+main {
+    max-width: 50rem;
+    margin: 3rem auto;
+    background-color: #a38787;
+    text-align: center;
+    font-family: cursive;
+    padding: 2rem 1.6rem 6rem 1.6rem;
+    border-radius: 2rem;
+    box-shadow: 0 2rem 2rem gray;
+}
+
+.intro {
+    margin: 30px 0px;
+    font-family: bold;
+}
+
+h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 600;
+}
+#firstLine {
+    margin-top: 10px;
+    color: #44efdc;
+}
+
+#secondLine {
+    color: #44ee10;
+}
+
+#thirdLine {
+    color: #dd0000;
+    margin-bottom: 30px;
+}
+
+#addItem {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #ff44ef;
+    background-color: #000;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+}
+
+#addItem:hover {
+    background-color:#ffffff;
+    color: #44ee10;
+
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 65%;
+
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #08051f;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: 2px solid #000;
+    margin-right: 2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+    background: #76CFE0;
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    color: #eb0202;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 25rem;
+}
+
+.done {
+    background: #17b302;
+    color: #fff;
+}
+
+
+.lastDiv{
+    margin-top: 10rem;
+    margin-bottom: -5rem;
+    margin-right: -5rem;
+}
+
+.delete {
+    display: none;
+    
+}
+
+em{
+    color: #44efdc;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.p1{
+    margin-left: 30rem;
+}
+
+.p2{
+    color: #17b302;
+    margin-top: -1.5rem;
+    margin-left: 41rem;
+    font-weight: bold;
+    margin-bottom: -2rem;
+}
